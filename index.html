@@ -10,10 +10,19 @@
     <script src="js/js.js"></script>
 </head>
 <body>
-<div class="container">
-<h1>Hola khe ase</h1>
+<div class="container lottie">
+    
 </div>
 
-    
+<script>
+        var animation = bodymovin.loadAnimation({
+        container: document.getElementById('lottie'), // Required
+        path: 'anim/om.json', // Required
+        renderer: 'svg/canvas/html', // Required
+        loop: true, // Optional
+        autoplay: true, // Optional
+        name: "OM", // Name for future reference. Optional.
+    });
+</script>
 </body>
 </html>
